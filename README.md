@@ -2,7 +2,7 @@
 
 To build with buildroot, clone buildroot repository in the same directory tree.
 
-With menuconfig, enable C++ and boost.
+With menuconfig, make sure C++ and boost are enabled.
 
 ```bash
 make qemu_arm_versatile_defconfig
