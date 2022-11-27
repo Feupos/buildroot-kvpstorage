@@ -1,0 +1,5 @@
+config BR2_PACKAGE_KVPSTORAGE
+        bool "kvpstorage"
+        help
+          This is a key-value pair storage application.
+        depends on json-for-modern-cpp

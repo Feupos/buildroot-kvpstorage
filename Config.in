@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_KVPSTORAGE_PATH/package/kvpstorage/Config.in"
