@@ -4,14 +4,14 @@ To build with buildroot, clone buildroot repository in the same directory tree.
 
 Run the commands from the buildroot diractory.
 
-With menuconfig, make sure C++ and boost are enabled.
+Replace X.Y.Z with the desired release version of the application
 
 ```bash
+export RELEASE_VERSION=v<X.Y.Z>
 make BR2_EXTERNAL=../buildroot-kvpstorage qemu_arm_versatile_kvpstorage_defconfig
 make menuconfig
 make
 ```
-
 
 You can then start the system with
 

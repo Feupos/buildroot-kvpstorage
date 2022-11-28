@@ -5,7 +5,6 @@ config BR2_PACKAGE_KVPSTORAGE
         select BR2_PACKAGE_JSON_FOR_MODERN_CPP
         select BR2_INSTALL_LIBSTDCPP
         select BR2_TOOLCHAIN_HAS_THREADS # boost
-        select BR2_USE_WCHAR # boost
         select BR2_PACKAGE_BOOST
         select BR2_PACKAGE_BOOST_SYSTEM
         select BR2_GCC_CROSS_CXX
