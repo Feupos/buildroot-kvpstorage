@@ -2,7 +2,7 @@ config BR2_PACKAGE_KVPSTORAGE
         bool "KVPstorage"
         help
           This is a key-value pair storage application.
-        select json-for-modern-cpp
+        select BR2_PACKAGE_JSON_FOR_MODERN_CPP
         select BR2_INSTALL_LIBSTDCPP
         select BR2_TOOLCHAIN_HAS_THREADS # boost
         select BR2_USE_WCHAR # boost
