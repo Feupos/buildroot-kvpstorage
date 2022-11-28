@@ -3,7 +3,7 @@
 # kvpstorage
 #
 ################################################################################
-KVPSTORAGE_VERSION = v0.1.3
+KVPSTORAGE_VERSION = $(RELEASE_VERSION)
 KVPSTORAGE_SOURCE = kvpstorage-$(KVPSTORAGE_VERSION).tar.gz
 KVPSTORAGE_SITE = $(call github,Feupos,key_value_pair_storage,$(KVPSTORAGE_VERSION))
 KVPSTORAGE_INSTALL_STAGING = YES
